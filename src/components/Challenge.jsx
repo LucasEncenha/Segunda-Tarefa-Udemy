@@ -5,7 +5,7 @@ const Challenge = () => {
             <h1>Valores:</h1>
             <p>Valor 1: {x}</p>
             <p>Valor 2: {y}</p>
-            <p>Soma: {x+y}</p>
+            <button onClick={console.log(x+y)}>Clique aqui</button>
         </div>
     );
 }
